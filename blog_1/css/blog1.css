@@ -1,0 +1,46 @@
+body{
+    background: #FDF6CA;
+}
+nav{
+    background: #eda8bd;
+    width: 1480px;
+    height: 70px;
+    flex-shrink: 0;
+    border-bottom: 2800px;
+    border-left: 24px;
+    border-right: 16px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#location{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 5%;
+}
