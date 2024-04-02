@@ -1,19 +1,31 @@
 body{
     background: #FDF6CA;
+    margin: 0;
+    width: 100%;
+    height: 100vh
 }
 
 nav{
     background: #eda8bd;
     width: 1480px;
-    height: 70px;
-    flex-shrink: 0;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border-bottom: 2800px;
     border-left: 24px;
     border-right: 16px;
     font-size: 20px;
     text-align: center;
     padding-top: 0px;
-}
+    align-items: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
+  
+  nav a{
+    text-decoration: none;
+  }
 
 h1{
     text-align: center;
