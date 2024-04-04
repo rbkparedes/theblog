@@ -43,11 +43,12 @@ img{
     padding-left: 5px;
 }
  p{
-    font-size: 20px;
-    font-family: "Kaisei Decol", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 5%;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 5%;
+text-decoration: underline;
  }
 
  section{

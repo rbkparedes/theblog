@@ -51,13 +51,15 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 p{
-  font-family: "Kaisei Decol", serif;
+    font-size: 15px;
+    font-family: "Kaisei Decol", serif;
   font-weight: 400;
   font-style: normal;
-  padding-left: 10px;
+  margin-left: 5%;
 }
 
 section{
