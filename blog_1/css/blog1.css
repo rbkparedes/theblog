@@ -21,7 +21,9 @@ nav{
   align-items: flex-end;
   justify-content: space-evenly;
 }
-
+footer nav{
+  padding-bottom: 0px;
+}
 nav a{
   text-decoration: none;
 }
@@ -39,6 +41,7 @@ img{
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 15px;
+    padding-left: 5px;
 }
 
 #location{
