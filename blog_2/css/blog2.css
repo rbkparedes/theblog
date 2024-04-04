@@ -32,6 +32,7 @@ h1{
     font-family: "Kaisei Decol", serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: underline;
 }
 
 img{
@@ -48,8 +49,7 @@ img{
 font-weight: 400;
 font-style: normal;
 margin-left: 5%;
-text-decoration: underline;
- }
+}
 
  section{
   display: flex;
