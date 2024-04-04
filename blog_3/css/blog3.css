@@ -48,3 +48,7 @@ p{
   font-style: normal;
   margin-left: 5%;
 }
+
+section{
+  display: flex;
+}
