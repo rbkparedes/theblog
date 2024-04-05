@@ -27,13 +27,17 @@ footer nav{
 nav a{
   text-decoration: none;
   color: black;
+  font-family: "bruna", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 h1{
-    text-align: center;
-    font-family: "Kaisei Decol", serif;
+  text-align: center;
+  font-family: "blackcurrant", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 40px;
   text-decoration: underline;
 }
 
@@ -56,10 +60,10 @@ img{
 }
 
 p{
-  font-size: 15px;
-  font-family: "Kaisei Decol", serif;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 20px;
+  font-family: "bruna", sans-serif;
+font-weight: 500;
+font-style: normal;
   margin-left: 5%;
 }
 

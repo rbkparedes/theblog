@@ -7,16 +7,16 @@ body{
 
 
 nav{
-    background: #eda8bd;
+    background: #fdea87;
     width: 1480px;
-    height: 30px;
+    height: 50px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 2800px;
     border-left: 24px;
     border-right: 16px;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 0px;
     align-items: center;
     align-items: flex-end;
@@ -26,7 +26,10 @@ nav{
 }
  nav a{
     text-decoration: none;
-    color: black;
+    color:black;
+    font-family: "bruna", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 #welcome{
@@ -48,7 +51,7 @@ nav{
 
 h1{
     text-align: center;
-    font-family: "Kaisei Decol", serif;
+    font-family: "blackcurrant", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
@@ -56,12 +59,12 @@ h1{
 }
 
 p{
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 5%;
-  overflow: clip;
+    font-size: 20px;
+    font-family: "bruna", sans-serif;
+    font-weight: 500;
+    font-style: normal; ;
+    margin-left: 5%;
+    overflow: clip;
 }
 
 section{
