@@ -29,6 +29,11 @@ nav a{
     font-family: "bruna", sans-serif;
     font-weight: 800;
     font-style: normal;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color:#e5157d 
 }
 
 h1{

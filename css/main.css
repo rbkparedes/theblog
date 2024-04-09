@@ -24,7 +24,7 @@ nav{
     justify-content:space-evenly;
     height: 60px; 
     display: flex;
-
+    
 }
  nav a{
     text-decoration: none;
@@ -33,9 +33,12 @@ nav{
     font-weight: 800;
     font-style: normal;
     margin: 0px;
-    
+    transition: color 0.3s ease;
 }
 
+nav a:hover {
+  color:#e5157d 
+}
 #welcome{
     width: 1464px;
     height: 750px;
