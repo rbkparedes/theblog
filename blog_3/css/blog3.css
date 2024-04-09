@@ -1,11 +1,11 @@
 body{
-  background: #FDF6CA;
+  background: #faa4cf;
   margin: 0;
 } 
 
 nav{
   background: #fdea87;
-  width: 1480px;
+  width: 1464px;
   height: 50px;
   display:flex;
   flex-direction: row;
@@ -13,20 +13,22 @@ nav{
   border-bottom: 2800px;
   border-left: 24px;
   border-right: 16px;
-  font-size: 20px;
-  text-align:center;
+  font-size: 25px;
   padding-top: 0px;
   align-items: center;
   align-items: flex-end;
-  justify-content: space-evenly;
+  justify-content: center;
+  justify-content:space-evenly;
+  height: 60px; 
+  display: flex;
 }
 
 nav a{
-  text-decoration: none;
-  color: black;
-  font-family: "bruna", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-family: "bruna", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 h1{
@@ -38,6 +40,15 @@ h1{
   text-decoration: underline;
   margin-top: 30px; 
   margin-bottom: 20px; 
+}
+
+h2{
+  text-align: center;
+    font-family: "blackcurrant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    padding-top: 10px;
 }
 
 img{
@@ -64,6 +75,38 @@ p{
   max-width: 800px;
 }
 
-section{
+#jacketz{
   display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0; 
+  background-color: #ef586c;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+#jacketz img{
+  width: 350px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 0px;
+}
+
+#jacketz h2{
+  text-align: center;
+  font-size: 35px;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-left: 95px;
+}
+
+#jacketz p{
+  padding-left: 100px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
 }

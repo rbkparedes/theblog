@@ -6,21 +6,23 @@ body{
 }
 
 nav{
-    background: #fdea87;
-    width: 1480px;
-    height: 50px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 2800px;
-    border-left: 24px;
-    border-right: 16px;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 0px;
-    align-items: center;
-    align-items: flex-end;
-    justify-content: space-evenly;
+  background: #fdea87;
+  width: 1464px;
+  height: 50px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 2800px;
+  border-left: 24px;
+  border-right: 16px;
+  font-size: 25px;
+  padding-top: 0px;
+  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
+  justify-content:space-evenly;
+  height: 60px; 
+  display: flex;
   }
   h2{
     text-align: center;
@@ -136,10 +138,11 @@ p{
  .carousel-container {
   position: relative;
   display: flex;
-  overflow: hidden; /* Hide overflowed images */
-  width: 500px; /* Adjust to the width of one image */
-  max-width: 100%; /* Responsive width */
-  margin: 0 auto; /* Center the carousel */
+  overflow: hidden; 
+  width: 500px; 
+  max-width: 100%; 
+  margin: 0 auto; 
+  margin-right: 20px;
 }
 
 .carousel-images {
@@ -170,27 +173,3 @@ p{
   color: lightcoral;
 }
 
-.image-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(158, 218, 253, 0.5); /* Adjust overlay color and opacity */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition effect */
-}
-
-.carousel-image-container:hover .image-overlay {
-  opacity: 1; /* Show overlay on hover */
-}
-
-/* Optional: Add styles for overlay content like text or icons */
-.image-overlay-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-}
