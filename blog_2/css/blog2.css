@@ -31,14 +31,16 @@ nav{
     font-style: normal;
   }
 
-h1{
-  text-align: center;
-  font-family: "blackcurrant", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-  text-decoration: underline;
-}
+  h1{
+    text-align: center;
+    font-family: "blackcurrant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    text-decoration: underline;
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+  }
 
 img{
     display: block;
@@ -50,12 +52,17 @@ img{
 
 }
 
- p{
+p{
   font-size: 20px;
   font-family: "bruna", sans-serif;
-font-weight: 500;
-font-style: normal;
-margin-left: 5%;
+  font-weight: 500;
+  font-style: normal; ;
+  margin-left: 5%;
+  overflow: clip;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto; 
+  max-width: 800px;
 }
 
  section{

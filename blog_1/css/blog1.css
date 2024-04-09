@@ -1,12 +1,14 @@
 body{
-  background: #FDF6CA;
+  background: #f6a3d2;
   margin: 0;
-  width: 100%;
-  height: 100vh
+  padding: 0;
+  
 }
+
+
 nav{
-  background: #eda8bd;
-  width: 1480px;
+  background: #fdea87;
+  width: 1464px;
   height: 50px;
   display:flex;
   flex-direction: row;
@@ -14,22 +16,23 @@ nav{
   border-bottom: 2800px;
   border-left: 24px;
   border-right: 16px;
-  font-size: 20px;
-  text-align: center;
+  font-size: 25px;
   padding-top: 0px;
   align-items: center;
   align-items: flex-end;
-  justify-content: space-evenly;
-}
-footer nav{
-  padding-bottom: 0px;
+  justify-content: center;
+  justify-content:space-evenly;
+  height: 60px; 
+  display: flex;
+
 }
 nav a{
   text-decoration: none;
-  color: black;
+  color:black;
   font-family: "bruna", sans-serif;
   font-weight: 800;
   font-style: normal;
+  margin: 0px;
 }
 
 h1{
@@ -37,10 +40,19 @@ h1{
   font-family: "blackcurrant", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 45px;
   text-decoration: underline;
+  margin-top: 30px; 
+  margin-bottom: 20px; 
 }
-
+h2{
+  text-align: center;
+    font-family: "blackcurrant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    padding-top: 10px;
+}
 img{
     display: block;
     margin-left: auto;
@@ -61,12 +73,76 @@ img{
 
 p{
   font-size: 20px;
-  font-family: "bruna", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  margin-left: 5%;
+    font-family: "bruna", sans-serif;
+    font-weight: 500;
+    font-style: normal; ;
+    margin-left: 5%;
+    overflow: clip;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 800px;
 }
 
-section{
+#books{
   display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 550px;
+  flex-shrink: 0; 
+  background-color: #ef586c;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+#books img{
+  padding-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 400px;
+}
+#books h2{
+  text-align: center;
+    font-size: 35px;
+    padding-right: 5%;
+}
+#books p{
+  padding-right: 80px;
+  padding-top: 80px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+#bought{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 550px;
+  flex-shrink: 0; 
+  background-color: #f6ecc8;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+#bought h2{
+  text-align: center;
+    padding-left: 10%;
+    font-size: 40px;
+}
+#bought img{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#pic1{
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#pic2{
+  flex: 33.33%;
+  padding: 5px;
 }
